@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">1 2Guide</string>
+    <string name="hello_user">Welcome to Dresden City</string>
+    <string name="menu_settings">Settings</string>
+    <string name="foodbutton">Typical Food</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="sights">Sights</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_food_map">FoodMapActivity</string>
+
+</resources>
