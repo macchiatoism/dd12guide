@@ -9,5 +9,6 @@
     <string name="sights">Sights</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_food_map">FoodMapActivity</string>
+    <string name="title_activity_simple_map">SimpleMapActivity</string>
 
 </resources>

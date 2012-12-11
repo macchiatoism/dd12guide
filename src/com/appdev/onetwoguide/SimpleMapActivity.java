@@ -1,26 +1,36 @@
 package com.appdev.onetwoguide;
 
 import com.google.android.maps.MapActivity;
+import com.google.android.maps.MapController;
+import com.google.android.maps.MapView;
 
+import android.os.Build;
 import android.os.Bundle;
+import android.annotation.TargetApi;
+import android.app.Activity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.support.v4.app.NavUtils;
 
-public class FoodMapActivity extends MapActivity {
+public class SimpleMapActivity extends MapActivity {
 
+	private MapView mapView;
+	private MapController mapController;
+
+	//@TargetApi(Build.VERSION_CODES.HONEYCOMB)
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_food_map);
+		setContentView(R.layout.activity_simple_map);
 		// Show the Up button in the action bar.
 		//getActionBar().setDisplayHomeAsUpEnabled(true);
+		mapView=(MapView)findViewById(R.id.map_view);
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.activity_food_map, menu);
+		getMenuInflater().inflate(R.menu.activity_simple_map, menu);
 		return true;
 	}
 
