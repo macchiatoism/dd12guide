@@ -2,17 +2,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SimpleMapActivity" >
+    tools:context=".SimpleMapActivity" 
+    class="com.google.android.gms.maps.MapFragment"/>
+    
 
     <com.google.android.maps.MapView
         android:id="@+id/map_view"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:apiKey="42:00:E1:51:6E:B5:4A:78:04:8F:C7:62:8F:08:2D:00:4E:B8:1E:25;com.appdev"
+        android:apiKey="@string/googleapikey"
         android:clickable="true"
-        android:enabled="true" 
-        android:visibility="visible"
- 	/>
+        android:enabled="true"
+        android:visibility="visible" />
 
     <!-- <TextView -->
     <!-- android:layout_width="wrap_content" -->

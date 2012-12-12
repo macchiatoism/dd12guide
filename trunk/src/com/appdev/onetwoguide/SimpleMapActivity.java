@@ -4,10 +4,7 @@ import com.google.android.maps.MapActivity;
 import com.google.android.maps.MapController;
 import com.google.android.maps.MapView;
 
-import android.os.Build;
 import android.os.Bundle;
-import android.annotation.TargetApi;
-import android.app.Activity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.support.v4.app.NavUtils;
@@ -25,6 +22,7 @@ public class SimpleMapActivity extends MapActivity {
 		// Show the Up button in the action bar.
 		//getActionBar().setDisplayHomeAsUpEnabled(true);
 		mapView=(MapView)findViewById(R.id.map_view);
+		mapView.setBuiltInZoomControls(true);
 	}
 
 	@Override

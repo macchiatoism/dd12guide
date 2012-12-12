@@ -10,5 +10,9 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_food_map">FoodMapActivity</string>
     <string name="title_activity_simple_map">SimpleMapActivity</string>
+    <string name="googleapikey">AIzaSyDjkihNv4DuqRikUxREzGQFpuwLN1qLuBs</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_activity_test">TestActivity</string>
 
 </resources>
