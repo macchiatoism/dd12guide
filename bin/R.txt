@@ -30,6 +30,7 @@ int layout activity_simple_map 0x7f030002
 int menu activity_food_map 0x7f070000
 int menu activity_main 0x7f070001
 int menu activity_simple_map 0x7f070002
+int menu activity_test 0x7f070003
 int string app_name 0x7f05000b
 int string common_google_play_services_enable_button 0x7f050006
 int string common_google_play_services_enable_text 0x7f050005
@@ -44,12 +45,16 @@ int string common_google_play_services_update_text 0x7f050008
 int string common_google_play_services_update_title 0x7f050007
 int string entertainment 0x7f05000f
 int string foodbutton 0x7f05000e
+int string googleapikey 0x7f050014
 int string hello_user 0x7f05000c
 int string hello_world 0x7f050011
 int string menu_settings 0x7f05000d
 int string sights 0x7f050010
 int string title_activity_food_map 0x7f050012
 int string title_activity_simple_map 0x7f050013
+int string title_activity_test 0x7f050017
+int string title_item_detail 0x7f050015
+int string title_item_list 0x7f050016
 int style AppBaseTheme 0x7f060000
 int style AppTheme 0x7f060001
 int[] styleable MapAttrs { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003, 0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b, 0x7f01000c, 0x7f01000d }
