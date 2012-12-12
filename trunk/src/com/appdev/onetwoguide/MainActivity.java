@@ -18,8 +18,9 @@ public class MainActivity extends Activity {
         foodButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-            	 Intent i = new Intent(MainActivity.this, FoodMapActivity.class);
-                 startActivity(i);
+            	// Intent i = new Intent(MainActivity.this, FoodMapActivity.class);
+            	Intent i = new Intent(MainActivity.this, SimpleMapActivity.class);
+            	startActivity(i);
             }
         });
     }
