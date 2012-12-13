@@ -1,0 +1,16 @@
+# view AndroidManifest.xml #generated:46
+-keep class com.appdev.onetwoguide.FoodMapActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class com.appdev.onetwoguide.LocationViewers { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class com.appdev.onetwoguide.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class com.appdev.onetwoguide.SimpleMapActivity { <init>(...); }
+
+# view res/layout/activity_food_map.xml #generated:7
+# view res/layout/activity_simple_map.xml #generated:29
+-keep class com.google.android.maps.MapView { <init>(...); }
+

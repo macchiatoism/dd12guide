@@ -15,5 +15,6 @@
     <string name="title_item_list">Items</string>
     <string name="title_activity_test">TestActivity</string>
     <string name="title_activity_location_viewers">LocationViewers</string>
+    <string name="waiting_for_location_">Waiting for location...</string>
 
 </resources>
