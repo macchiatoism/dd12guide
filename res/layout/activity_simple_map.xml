@@ -25,12 +25,12 @@
 <!--             android:text="Latitude: " -->
 <!--             android:textSize="20sp" > -->
 <!--     </TextView> -->
-    
+    <!--  TODO:change apiKey string as needed -->
     <com.google.android.maps.MapView
         android:id="@+id/map_view"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:apiKey="@string/googleapikey"
+        android:apiKey="@string/googleapikey_windows" 
         android:clickable="true"
         android:enabled="true"
         android:visibility="visible" />
