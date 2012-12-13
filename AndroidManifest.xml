@@ -55,7 +55,7 @@
         <!-- edited by Macc: Google Map API Key -->
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyDjkihNv4DuqRikUxREzGQFpuwLN1qLuBs" />
+            android:value="@string/googleapikey_windows" />
 
         <activity
             android:name="com.appdev.onetwoguide.SimpleMapActivity"
