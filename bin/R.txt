@@ -13,9 +13,9 @@ int attr uiZoomGestures 0x7f01000b
 int attr useViewLifecycle 0x7f01000c
 int attr zOrderOnTop 0x7f01000d
 int drawable ic_launcher 0x7f020000
+int id TextView01 0x7f040009
 int id entertainment 0x7f040006
 int id foodbutton 0x7f040007
-int id map 0x7f040009
 int id map_view 0x7f04000a
 int id mapview 0x7f040004
 int id menu_settings 0x7f04000b
@@ -59,6 +59,7 @@ int string title_activity_simple_map 0x7f050013
 int string title_activity_test 0x7f050017
 int string title_item_detail 0x7f050015
 int string title_item_list 0x7f050016
+int string waiting_for_location_ 0x7f050019
 int style AppBaseTheme 0x7f060000
 int style AppTheme 0x7f060001
 int[] styleable MapAttrs { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003, 0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b, 0x7f01000c, 0x7f01000d }
