@@ -1,16 +1,29 @@
-# view AndroidManifest.xml #generated:46
--keep class com.appdev.onetwoguide.FoodMapActivity { <init>(...); }
-
-# view AndroidManifest.xml #generated:69
+# view AndroidManifest.xml #generated:48
 -keep class com.appdev.onetwoguide.LocationViewers { <init>(...); }
 
-# view AndroidManifest.xml #generated:37
--keep class com.appdev.onetwoguide.MainActivity { <init>(...); }
+# view AndroidManifest.xml #generated:56
+-keep class com.appdev.onetwoguide.MainMapActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:60
--keep class com.appdev.onetwoguide.SimpleMapActivity { <init>(...); }
+# view AndroidManifest.xml #generated:67
+-keep class com.appdev.onetwoguide.NearPlaceActivity { <init>(...); }
 
-# view res/layout/activity_food_map.xml #generated:7
+# view AndroidManifest.xml #generated:91
+-keep class com.appdev.onetwoguide.PlaceMenuGridActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class com.appdev.onetwoguide.PlacesMapActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:75
+-keep class com.appdev.onetwoguide.SinglePlaceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class com.appdev.onetwoguide.WelcomeActivity { <init>(...); }
+
 # view res/layout/activity_simple_map.xml #generated:29
 -keep class com.google.android.maps.MapView { <init>(...); }
+
+# onClick res/layout/activity_map_view_demo.xml #generated:14
+# onClick res/layout/activity_map_view_demo.xml #generated:18
+# onClick res/layout/activity_map_view_demo.xml #generated:22
+-keepclassmembers class * { *** myClickHandler(...); }
 

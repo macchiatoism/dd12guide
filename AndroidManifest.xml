@@ -4,9 +4,9 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-    <uses-sdk android:minSdkVersion="8" />
-    <!-- android:targetSdkVersion="17" -->
-
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="11" />
 
     <!-- edited by Macc: Google Map API V2 requires OpenGL ES version 2 -->
     <uses-feature
@@ -25,51 +25,82 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-	
+	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+<!-- 	this is necessary only during app development, not in production apps. -->
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
     <application
         android:allowBackup="true"
+        android:debuggable="true"
         android:hardwareAccelerated="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppBaseTheme" >
         <uses-library android:name="com.google.android.maps" />
 
+
+        <!-- edited by Macc: Google Map API Key -->
+<!--         <meta-data -->
+<!--             android:name="com.google.android.maps.v2.API_KEY" -->
+<!--             android:value="@string/googleapikey_windows" /> -->
+
         <activity
-            android:name="com.appdev.onetwoguide.MainActivity"
-            android:label="@string/app_name" >
+            android:name="com.appdev.onetwoguide.LocationViewers"
+            android:label="@string/title_activity_location_viewers" >
+        </activity>
+        <activity
+            android:name="com.appdev.onetwoguide.WelcomeActivity"
+            android:label="@string/title_activity_welcome" >
+        </activity>
+        <activity
+            android:name="com.appdev.onetwoguide.MainMapActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.appdev.onetwoguide.FoodMapActivity"
-            android:label="@string/title_activity_food_map"
-            android:parentActivityName="MainActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="MainActivity" />
+        
+        <activity android:label="@string/search_result" 
+            android:name="NearPlaceActivity">
+            <intent-filter>
+                <action android:name="com.appdev.onetwoguide.NEARPLACEACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
         </activity>
-
-        <!-- edited by Macc: Google Map API Key -->
-        <meta-data
-            android:name="com.google.android.maps.v2.API_KEY"
-            android:value="@string/googleapikey_windows" />
-
-        <activity
-            android:name="com.appdev.onetwoguide.SimpleMapActivity"
-            android:label="@string/title_activity_simple_map"
-            android:parentActivityName="com.google.android.maps.MapActivity"
-            android:theme="@android:style/Theme.NoTitleBar" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.google.android.maps.MapActivity" />
+        
+        <activity android:label="@string/place_detail" 
+            android:name="SinglePlaceActivity">
+            <intent-filter>
+                <action android:name="com.appdev.onetwoguide.SINGLEPLACEACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
         </activity>
-        <activity
-            android:name="com.appdev.onetwoguide.LocationViewers"
-            android:label="@string/title_activity_location_viewers" >
+        
+        <activity android:label="@string/all_places" 
+            android:name="PlacesMapActivity">
+            <intent-filter>
+                <action android:name="com.appdev.onetwoguide.PLACEMAPACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
         </activity>
+        
+        <activity android:label="@string/choose_place_categories" 
+            android:name="PlaceMenuGridActivity">
+            <intent-filter>
+                <action android:name="com.appdev.onetwoguide.PLACEMENUGRIDACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        
+        
+        
+        
+        
+        
     </application>
 
 </manifest>

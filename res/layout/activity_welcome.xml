@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_welcome.xml -->
+<!-- Welcome App's XML layout. -->
+
+<!-- RelativeLayout that contains the App's GUI components. -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" 
+	android:layout_height="match_parent" 
+	android:id="@+id/welcomeRelativeLayout" android:background="#FFFFFF">
+   
+   <!-- TextView that displays "Welcome to Android App Development!" -->
+   <TextView android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:text="@string/welcome" 
+      android:textSize="40sp" android:id="@+id/welcomeTextView" 
+      android:textColor="#00F" android:textStyle="bold" 
+      android:layout_centerHorizontal="true" android:gravity="center" 
+      android:layout_marginTop="10dp"></TextView>
+
+   <ImageView
+       android:id="@+id/WelcomeImageView"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/welcomeTextView"
+       android:layout_centerHorizontal="true"
+       android:contentDescription="@string/welcome_desc"
+       android:src="@drawable/welcome_image_view" >
+</ImageView>
+<!--    <ImageView android:layout_height="wrap_content"  -->
+<!--       android:layout_width="wrap_content" android:id="@+id/bugImageView"  -->
+<!--       android:src="@drawable/bug"  -->
+<!--       android:layout_below="@id/droidImageView"  -->
+<!--       android:layout_centerHorizontal="true"></ImageView> -->
+</RelativeLayout>

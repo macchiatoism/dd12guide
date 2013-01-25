@@ -1,43 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity" >
-    
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+ 
+    <!-- Show on Map button -->
+    <Button android:id="@+id/btn_show_map"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:text="@string/display_places_on_map"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="26dp"
-        android:text="@string/hello_user" />
-
-    <Button
-        android:id="@+id/entertainment"
-        android:layout_width="wrap_content"
+        android:layout_marginTop="10dip"
+        android:typeface ="serif"
+        android:textSize ="20sp"
+        />
+ 
+    <!--  List view -->
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/textView1"
-        android:layout_marginTop="104dp"
-        android:text="@string/entertainment" />
-
-    <Button
-        android:id="@+id/foodbutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp"
-        android:text="@string/foodbutton" />
-
-    <Button
-        android:id="@+id/sights"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/entertainment"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:text="@string/sights" />
-
+        android:layout_below="@id/btn_show_map"/>
+ 
 </RelativeLayout>
