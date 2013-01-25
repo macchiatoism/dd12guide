@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation = "vertical"
+	android:layout_width = "fill_parent"
+	android:layout_height = "fill_parent">
+	<TextView 
+	    android:id="@+id/place_menu_text"
+	    android:layout_width ="fill_parent"
+	    android:text = "@string/place_category"
+	    android:layout_height ="wrap_content"
+	    android:gravity ="center_horizontal"
+	    android:textSize ="28sp"
+	    android:textStyle ="bold"
+	    android:typeface ="serif"
+	    />
+	
+	<GridView 
+    android:id="@+id/place_menu_grid_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:numColumns="auto_fit"
+    android:columnWidth="90dp"
+    android:horizontalSpacing="20dp"
+    android:verticalSpacing="20dp"
+    android:gravity="center"
+    android:stretchMode="columnWidth"
+    > 
+    
+    </GridView>
+
+</LinearLayout>

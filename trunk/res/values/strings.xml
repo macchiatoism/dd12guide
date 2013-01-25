@@ -1,21 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name">1 2Guide</string>
+	<!-- 	application string  -->
+    <string name="app_name">1&#8211;2&#8211;Guide</string>
+    
+    
     <string name="hello_user">Welcome to Dresden City</string>
     <string name="menu_settings">Settings</string>
     <string name="foodbutton">Typical Food</string>
     <string name="entertainment">Entertainment</string>
-    <string name="sights">Sights</string>
+    <string name="sightseeing">Sightseeing</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_food_map">FoodMapActivity</string>
     <string name="title_activity_simple_map">SimpleMapActivity</string>
+    
+    
     <string name="googleapikey_linux">AIzaSyDjkihNv4DuqRikUxREzGQFpuwLN1qLuBs</string>
-    <string name="googleapikey_windows">AIzaSyD65hGp42HekG5B_OrYGFTuIq9z6cjIicE</string>
+    <string name="googlemapapikey_windows">0IB_jS8jxEE9lb6v2uV2AiwG5LwGLmnIV4aX6Zg</string>
+    <string name="googleapikey_windows">AIzaSyA12zNp9N9CiaLYGKvgVmdUvrbb8zlcdd4</string>
+    
+    
     <string name="title_item_detail">Item Detail</string>
     <string name="title_item_list">Items</string>
     <string name="title_activity_test">TestActivity</string>
     <string name="title_activity_location_viewers">LocationViewers</string>
     <string name="waiting_for_location_">Waiting for location...</string>
 
+    <!-- text button -->
+    <string name="foods">Foods</string>
+    <string name="welcome_to_dresden_city_">Welcome to Dresden City....</string>
+    <string name="museum">Museum</string>
+    <string name="clubs">Clubs</string>
+    <string name="cinema">Cinema</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="login">Login</string>
+    <string name="delete">Delete</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+
+    <!-- welcome activity -->
+    <string name="welcome">Welcome to 1–2–Guide</string>
+    <string name="welcome_desc">welcome</string>
+    
+    <string name="title_activity_map_view_demo">MapViewDemoActivity</string>
+    <string name="Traffic">Traffic</string>
+    <string name="Satellite">Satellite</string>
+    <string name="Map">Map</string>
+   <string name="button_start_tracking">Start Tracking</string>
+   <string name="button_stop_tracking">Stop Tracking</string>
+
+   <string name="toast_signal_acquired">GPS signal acquired</string> 
+   <string name="toast_signal_lost">GPS signal lost</string>
+   <string name="results">Distance and Average Speed</string>
+   <string name="results_format">Distance: %1$.1fKm %2$.1fMile\nAverage speed: %3$.1fKph %4$.1fMph</string>
+   <string name="button_ok">OK</string>
+   <string name="show_places_on_map">Show Places on Map</string>
+   <string name="name_">Name:</string>
+   <string name="address_">Address:</string>
+   <string name="search_result">Search Result</string>
+   <string name="place_detail">Place Details</string>
+   <string name="all_places">All Places</string>
+   
+   <!-- NearPlaceActivity -->
+   <string name ="display_places_on_map">Display Places On Map</string>
+   
+   
+   <!-- PlaceMenuGridActivity -->
+   <string name="choose_place_categories">Choose Place Categories</string>
+   <string name="place_category">Place Category</string>
+   
 </resources>
